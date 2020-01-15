@@ -1,0 +1,131 @@
+.reviews {
+	min-height: 1000px;
+	background-image: url("../../img/white-students.svg");
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	margin-bottom: 80px;
+}
+
+.reviews__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	position: relative;
+}
+
+.reviews__title {
+	width: 480px;
+	font-size: 48px;
+	line-height: 64px;
+	font-family: "monserat-semi-bold", Arial, sans-serif;
+	margin-bottom: 125px;
+	margin-right: 125px;
+
+}
+
+.reviews__title span:first-child {
+	display: block;
+	width: 270px;
+	position: relative;
+
+	&:before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 12px;
+		background-color: #caebff;
+		top: 45px;
+		left: 0;
+		z-index: -1;
+	}
+}
+.reviews__title span:nth-child(2) {
+	font-family: "monserat-extra-bold", Arial, sans-serif;
+	width: 465px;
+	position: relative;
+
+	&:before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 12px;
+		background-color: #caebff;
+		top: 40px;
+		left: 0;
+		z-index: -1;
+	}
+}
+
+.reviews__phone {
+	position: absolute;
+	left: 35px;
+	top: 110px;
+}
+
+.reviews__comment {
+	position: absolute;
+	left: 65px;
+	top: 190px;
+}
+
+.reviews__people {
+	position: absolute;
+	left: 0;
+	top: 725px;
+}
+
+.reviews__blur-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 450px;
+	width: 830px;
+}
+
+.reviews__blur-list li:first-child {
+	width: 285px;
+	height: 245px;
+	background-image: url("../../img/comment-1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.reviews__blur-list li:nth-child(2), .reviews__blur-list li:nth-child(3) {
+	width: 220px;
+	height: 190px;
+	background-image: url("../../img/comment-2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.reviews__fb {
+	display: flex;
+	margin-bottom: 185px;
+	color: #4e759b;
+}
+
+.reviews__fb-wrapper {
+	width: 590px;
+	text-align: right;
+	margin-right: 60px;
+}
+
+.reviews__fb-title {
+	font-family: "circe-extra-bold", Arial, sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: normal;
+	font-size: 38px;
+}
+
+.reviews__fb-text {
+	font-family: "circe-regular", Arial, sans-serif;
+	font-size: 38px;
+	margin: 0;
+	line-height: 50px;
+}
+
+.reviews__fb-link {
+	margin-top: 10px;
+}

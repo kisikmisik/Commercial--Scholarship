@@ -1,0 +1,95 @@
+.about-us {
+	position: relative;
+	background-image: url("../../img/bg_understudentsbook.png");
+	background-size: 50% 70%;
+	background-position: 0 80px;
+	background-repeat: no-repeat;
+
+	&:after {
+		content: "";
+		position: absolute;
+		width: 61%;
+		height: 532px;
+		background-image: url("../../img/student-books.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		left: 0;
+		top: 295px;
+	}
+}
+
+.about-us__wrapper {
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.about-us__text-wrapper {
+	text-align: left;
+	width: 590px;
+	z-index: 2;
+}
+
+.about-us__title {
+	font-size: 48px;
+	font-family: "monserat-semi-bold", Arial, sans-serif;
+	margin: 0;
+	margin-bottom: 80px;
+}
+
+.about-us__title span:first-child {
+	position: relative;
+	width: 255px;
+
+	&:before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 12px;
+		background-color: #caebff;
+		top: 40px;
+		left: 0;
+		z-index: -1;
+	}
+}
+
+.about-us__title span:nth-child(2) {
+	display: block;
+	font-family: "monserat-extra-bold", Arial, sans-serif;
+	position: relative;
+	width: 400px;
+	text-transform: uppercase;
+
+	&:before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 12px;
+		background-color: #caebff;
+		top: 40px;
+		left: 0;
+		z-index: -1;
+	}
+}
+
+.about-us__info {
+	font-size: 18px;
+	line-height: 36px;
+	margin-bottom: 40px;
+}
+
+.about-us b {
+	font-family: "monserat-bold", Arial, sans-serif;
+	font-weight: normal;
+}
+
+.about-us__info i {
+	font-family: "monserat-semi-bold", Arial, sans-serif;
+	text-transform: none;
+}
+
+.about-us__countries {
+	font-size: 18px;
+	line-height: 36px;
+	margin-bottom: 600px;
+}

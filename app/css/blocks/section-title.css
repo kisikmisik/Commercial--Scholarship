@@ -1,0 +1,17 @@
+.section-title {
+  margin: 0;
+  font-size: 48px;
+  font-family: "monserat-extra-bold", Arial, sans-serif;
+  position: relative;
+  margin-bottom: 90px;
+}
+.section-title:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 12px;
+  background-color: #caebff;
+  top: 40px;
+  left: 0;
+  z-index: -1;
+}

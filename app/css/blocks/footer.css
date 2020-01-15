@@ -1,0 +1,38 @@
+.footer {
+  border-top: 2px solid #efefef;
+  font-family: "monserat-extra-bold", Arial, sans-serif;
+}
+.footer__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer__contact-title {
+  font-size: 21px;
+  text-transform: uppercase;
+  padding-top: 40px;
+  color: #585858;
+}
+.footer__contact-phone {
+  font-size: 30px;
+  color: #585858;
+  display: block;
+  margin-bottom: 35px;
+}
+.footer__contact-email {
+  font-size: 18px;
+  color: #5485a4;
+  font-family: "monserat-medium", Arial, sans-serif;
+}
+.footer__copyright {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-family: "monserat-medium", Arial, sans-serif;
+  color: #c8c8c8;
+}

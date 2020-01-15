@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "monserat-regular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monserat-bold";
+  src: url("../fonts/Montserrat-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monserat-medium";
+  src: url("../fonts/Montserrat-Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monserat-extra-bold";
+  src: url("../fonts/Montserrat-ExtraBold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monserat-semi-bold";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "circe-extra-bold";
+  src: url("../fonts/Circe-ExtraBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "circe-regular";
+  src: url("../fonts/Circe-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monserat-black";
+  src: url("../fonts/Montserrat-Black.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "monserat-regular", Arial, sans-serif;
+  font-size: 18px;
+  color: #212121;
+}
+@media screen and (min-width: 350px) and (max-width: 800px) {
+  body {
+    min-width: 350px;
+    max-width: 800px;
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+  color: #212121;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
+h2 {
+  font-weight: normal;
+}
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

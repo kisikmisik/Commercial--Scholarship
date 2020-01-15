@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form__wrapper {
+  border: none;
+  display: flex;
+  margin-bottom: 85px;
+}
+.form__wrapper input {
+  width: 350px;
+  height: 85px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  border: 2px solid #e1e1e1;
+  border-right: none;
+}
+.form__submit {
+  width: 350px;
+  height: 85px;
+  background-color: #4dc000;
+  color: white;
+  text-transform: uppercase;
+  font-family: "circe-extra-bold", Arial, sans-serif;
+  font-size: 21px;
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.form__name {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.form__rodo-label {
+  text-align: center;
+  color: #e1e1e1;
+  margin-bottom: 125px;
+}
+.form__rodo-checkbox {
+  opacity: 0.4;
+}

@@ -1,0 +1,69 @@
+.easy {
+  padding-top: 200px;
+  background-image: url("../../img/bg_understudents.png");
+  background-size: 59% 70%;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 180px;
+}
+.easy:after {
+  content: "";
+  position: absolute;
+  width: 47%;
+  height: 743px;
+  background-image: url("../../img/students.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 180px;
+  right: 235px;
+}
+.easy__title {
+  font-family: "monserat-bold", Arial, sans-serif;
+  font-size: 56px;
+  line-height: 75px;
+  margin-bottom: 100px;
+}
+.easy__title span {
+  position: relative;
+}
+.easy__title span:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 12px;
+  background-color: #caebff;
+  top: 48px;
+  left: 0;
+  z-index: -1;
+}
+.easy__text {
+  width: 450px;
+  font-family: "monserat-medium", Arial, sans-serif;
+  margin-bottom: 190px;
+  line-height: 36px;
+  font-size: 24px;
+}
+.easy__join {
+  width: 450px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #4dc000;
+  font-family: "circe-regular", Arial, sans-serif;
+  font-size: 28px;
+  position: relative;
+  margin-bottom: 155px;
+}
+.easy__join:after {
+  content: "";
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  width: 35px;
+  height: 30px;
+  background-image: url("../../img/next.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

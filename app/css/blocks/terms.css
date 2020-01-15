@@ -1,0 +1,45 @@
+.terms {
+  position: relative;
+  background-image: url("../../img/bg-cap.png");
+  background-size: 50% 100%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding-bottom: 380px;
+}
+.terms:after {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 680px;
+  background-image: url("../../img/cap.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: 0;
+  top: 130px;
+}
+.terms__title {
+  width: 460px;
+}
+.terms__list {
+  margin-left: 120px;
+}
+.terms__list b {
+  font-weight: normal;
+  font-family: "monserat-bold", Arial, sans-serif;
+}
+.terms__item {
+  margin-bottom: 40px;
+  width: 530px;
+  line-height: 40px;
+  position: relative;
+}
+.terms__item:before {
+  content: "";
+  position: absolute;
+  left: -55px;
+  top: 9px;
+  width: 25px;
+  height: 25px;
+  background-image: url("../../img/yellow_triangle.svg");
+  background-size: contain;
+}

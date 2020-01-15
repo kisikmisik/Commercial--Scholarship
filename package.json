@@ -18,5 +18,9 @@
   "homepage": "https://github.com/kisikmisik/Commercial--Scholarship#readme",
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-less": "^4.0.1"
   }
 }
