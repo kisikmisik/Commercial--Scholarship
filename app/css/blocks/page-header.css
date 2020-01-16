@@ -8,3 +8,14 @@
   font-family: "monserat-bold", Arial, sans-serif;
   margin-right: 35px;
 }
+@media screen and (min-width: 350px) and (max-width: 800px) {
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 25px;
+  }
+  .page-header__logo {
+    padding-bottom: 25px;
+  }
+}

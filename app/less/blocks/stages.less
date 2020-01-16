@@ -38,3 +38,55 @@
 	font-family: "monserat-black", Arial, sans-serif;
 }
 
+@media screen and (min-width: 350px) and (max-width: 800px) {
+	.stages {
+		padding-top: 60px;
+	}
+
+	.stages__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.stages__title {
+		font-size: 24px;
+		width: 90%;
+		text-align: center;
+		margin-bottom: 60px;
+
+		&:before {
+			top: 19px;
+		}
+	}
+
+	.stages__list {
+		width: 95%;
+		text-align: left;
+		padding-left: 0;
+		margin-bottom: 50px;
+	}
+
+	.stages__step:nth-child(2n - 1) {
+		flex-direction: row;
+		padding-left: 0;
+	}
+
+	.stages__step {
+		padding-right: 20px;
+	}
+
+	.stages__step span {
+		text-align: left;
+	}
+
+	.stages__step br {
+		display: none;
+	}
+
+	.stages__count {
+		font-size: 30px;
+		padding: 0 30px;
+	}
+}
+

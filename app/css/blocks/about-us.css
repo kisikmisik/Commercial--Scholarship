@@ -81,3 +81,36 @@
   line-height: 36px;
   margin-bottom: 600px;
 }
+@media screen and (min-width: 350px) and (max-width: 800px) {
+  .about-us {
+    background-size: 100% 450px;
+  }
+  .about-us:after {
+    content: "";
+    top: 70%;
+    width: 100%;
+    max-width: 500px;
+    left: auto;
+    right: auto;
+  }
+  .about-us__title {
+    font-size: 24px;
+    width: 90%;
+  }
+  .about-us .about-us__title span {
+    width: 100%;
+  }
+  .about-us .about-us__title span:before {
+    top: 17px;
+  }
+  .about-us__text-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-us__countries {
+    padding-bottom: 300px;
+    margin-bottom: 0;
+  }
+}

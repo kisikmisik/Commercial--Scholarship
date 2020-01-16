@@ -11,7 +11,7 @@
 <body>
 	<header class="page-header container">
 		<a href="#" class="page-header__logo">
-			Scholarship
+			<span>Scholarship</span>
 		</a>
 		<nav class="page-header__nav main-nav">
 			<ul class="main-nav__list">
@@ -89,7 +89,6 @@
 		<section class="reviews">
 			<div class="reviews__wrapper container">
 				<h2 class="reviews__title"><span>Прочитай,</span><span>что о нас говорят</span></h2>
-				<img src="img/iphone.png" alt="" class="reviews__phone" width="500" height="680">
 				<img src="img/phone-content.png" alt="Положительный отзыв от Ирины Ситниковой" class="reviews__comment" width="405" height="540">
 				<img src="img/people.png" alt="Фото наших клиентов" class="reviews__people" width="570">
 
@@ -117,9 +116,10 @@
 			<p class="member__info">Для подачи заявки на участие в проекте оставьте свои контактные данные</p>
 			<form action="#" class="form">
 				<fieldset class="form__wrapper">
-					<input class="form__name" type="text" placeholder="ФИО" required>
-					<input class="form__phone" value="+38" type="tel" placeholder="+38" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-					<input class="form__email" type="email" placeholder="E-mail" required>
+					<input class="form__name" type="text" placeholder="ФИО" minlength="4" maxlength="40" required>
+					<input class="form__phone" value="+38" type="tel" placeholder="+38"
+					maxlength="13" required>
+					<input class="form__email" type="email" placeholder="E-mail" maxlength="40" required>
 					<button class="form__submit" type="submit">Присоединиться</button>
 				</fieldset>
 

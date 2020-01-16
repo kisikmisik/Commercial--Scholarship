@@ -36,3 +36,8 @@
   font-family: "monserat-medium", Arial, sans-serif;
   color: #c8c8c8;
 }
+@media screen and (min-width: 350px) and (max-width: 800px) {
+  .footer__contact {
+    margin-bottom: 30px;
+  }
+}

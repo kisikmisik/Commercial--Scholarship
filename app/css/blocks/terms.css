@@ -43,3 +43,45 @@
   background-image: url("../../img/yellow_triangle.svg");
   background-size: contain;
 }
+@media screen and (min-width: 350px) and (max-width: 800px) {
+  .terms {
+    background-image: none;
+    background-color: #eaf7ff;
+    z-index: -2;
+    padding-bottom: 30px;
+  }
+  .terms:after {
+    top: 140px;
+    width: 90%;
+    max-width: 400px;
+  }
+  .terms__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .terms .terms__title {
+    width: 90%;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 320px;
+  }
+  .terms .terms__title:before {
+    z-index: -1;
+    top: 70px;
+    background-color: white;
+    width: 100%;
+  }
+  .terms__list {
+    padding-left: 60px;
+    margin-left: 0;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 25px;
+  }
+  .terms__item {
+    width: 90%;
+  }
+}

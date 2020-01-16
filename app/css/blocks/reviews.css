@@ -50,20 +50,16 @@
   left: 0;
   z-index: -1;
 }
-.reviews__phone {
-  position: absolute;
-  left: 35px;
-  top: 110px;
-}
 .reviews__comment {
   position: absolute;
   left: 65px;
-  top: 190px;
+  top: 115px;
 }
 .reviews__people {
   position: absolute;
-  left: 0;
-  top: 725px;
+  left: 40px;
+  top: 593px;
+  width: 455px;
 }
 .reviews__blur-list {
   display: flex;
@@ -112,4 +108,57 @@
 }
 .reviews__fb-link {
   margin-top: 10px;
+}
+@media screen and (min-width: 350px) and (max-width: 800px) {
+  .reviews__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviews__title {
+    width: 90%;
+    font-size: 24px;
+    margin-right: 0;
+    margin-bottom: 75px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .reviews__title span:first-child {
+    width: 140px;
+  }
+  .reviews__comment {
+    position: static;
+    width: 95%;
+    height: auto;
+  }
+  .reviews__people {
+    position: static;
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: 70px;
+  }
+  .reviews__blur-comments {
+    display: none;
+  }
+  .reviews__fb-wrapper {
+    text-align: right;
+    width: 95%;
+    margin-right: 15px;
+  }
+  .reviews__fb-title {
+    font-size: 24px;
+  }
+  .reviews__fb-image {
+    width: 90px;
+    height: 90px;
+  }
+  .reviews__fb-text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .reviews__fb {
+    margin-bottom: 80px;
+  }
 }
